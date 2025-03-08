@@ -1,5 +1,3 @@
-import org.springframework.boot.gradle.tasks.bundling.BootJar
-
 plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.4.3'
@@ -38,10 +36,3 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-tasks.withType(Jar).configureEach {
-	enabled = false
-}
-
-tasks.withType(BootJar).configureEach {
-	archiveFileName = "app.jar"
-}
