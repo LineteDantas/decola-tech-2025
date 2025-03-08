@@ -1,4 +1,4 @@
-package me.dio.decola.decola_tech_2025;
+package me.dio.decola.domain;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
